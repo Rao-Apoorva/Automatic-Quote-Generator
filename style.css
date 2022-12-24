@@ -1,0 +1,156 @@
+.button {
+  width: 210px;
+  height: 40px;
+  background-color: hotpink;
+  color: black;
+  border-radius: 10px;
+  font-color: #391306;
+  margin: 0px 100px;
+  font-family: "Zen Dots", cursive;
+  font-size: 0.99em;
+}
+.button:hover {
+  background-color: black;
+  color: hotpink;
+  transform: scale(1.1);
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(https://wallpaper.dog/large/17148390.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textArea {
+  padding-top: 300px;
+  padding-right: 300px;
+}
+
+#quote {
+  font-family: "Zen Dots";
+  font-style: oblique;
+}
+
+.quotediv {
+  font-size: 20px;
+  color: snow;
+  font-family: "nunito", cursive;
+  margin: 20px 400px 0 100px;
+  position: fixed;
+}
+
+.buttondiv {
+  padding: 0px 0px 0px 100px;
+  margin: 90px 500px 30px 250px;
+}
+
+.textbox {
+  background-color: #aaff00;
+  border-color: black;
+  border-radius: 5rem;
+  width: 150px;
+  height: 30px;
+  color: #40826d;
+  margin: 00px 00px 70px 280px;
+  font-family: "Zen Dots", cursive;
+}
+.textbox2 {
+  background-color: #00bfff;
+  border-color: black;
+  border-radius: 5rem;
+  width: 150px;
+  height: 30px;
+  color: blue;
+  margin: 00px 20px 90px 90px;
+  font-family: "Zen Dots", cursive;
+}
+
+.textdiv {
+  position: fixed;
+  margin: 200px 20px 100px 0px;
+  display: block;
+  margin: 250px 0px 00px 0px;
+}
+.dropdowndiv {
+  margin: 400px 0px 00px 250px;
+  padding: 0px 0px 0px 200px;
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+.dropdowndiv2 {
+  border-radius: 90px;
+  font-color: #391306;
+  width: 180px;
+  height: 30px;
+  background-color: #ffd700;
+  font-family: "Apple Chancery", cursive;
+  text-align: center;
+}
+
+.content {
+  position: fixed;
+  color: white;
+  margin: 10px 0px 0px 470px;
+  color: #fffdd0;
+  font-size: 1.2em;
+  font-weight: thin;
+  font-family: "Apple Chancery", cursive;
+}
+
+.icon {
+  color: ;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 950px;
+}
+.icon:hover {
+  color: aqua;
+}
+
+.help-tip {
+  position: fixed;
+  margin: 0px 310px;
+  text-align: center;
+  background-color: hotpink;
+  border-radius: 50%;
+  width: 30px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.help-tip:before {
+  content: "?";
+  font-weight: 700;
+}
+
+.help-tip p {
+  position: fixed;
+  visibility: hidden;
+  text-align: center;
+  font-family: "Apple Chancery", cursive;
+  background-color: hotpink;
+  padding: 10px;
+  width: 200px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: normal;
+  transform: scale(0.6);
+  transform-origin: 0% 0% 0% 100%;
+  transition: all 0.4s cubic-bezier(0.1, 0.1, 0.1, 0.1);
+}
+
+.help-tip:hover p {
+  visibility: visible;
+  transform: scale(1);
+}

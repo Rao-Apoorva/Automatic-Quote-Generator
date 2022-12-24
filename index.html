@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <title>TASK1</title>
+</head>
+
+<body>
+
+  <div class="buttondiv">
+    <button onclick="changeQuotes()" class="button">Quotes for a Fresh Start</button>
+
+    <div class="help-tip">
+      <p style=" padding: 8px;
+  width: 360px;">This is a button.Press this button to see fresh new quotes everytime.
+      </p>
+    </div>
+
+  </div>
+  <div class="quotediv">
+    <h3 id="quote"></h3>
+  </div>
+
+  <div class="textdiv">
+    <div class="textboxdiv">
+      <input type="text" class="textbox" id="textbox1" placeholder="  Enter The Text Here :)">
+
+      <input type="text" class="textbox2" id="textbox2" placeholder="     Your Text :)" disabled>
+    </div>
+
+    <div class="help-tip" style="color:black;background-color:#21B6A8;margin:-120px 475px;
+">
+      <p style="color:black;background-color:#21B6A8">This is a textbox.Enter something in green box, it will show in blue box
+      </p>
+    </div>
+  </div>
+
+  <div class="dropdowndiv">
+    <select class="dropdowndiv2" id="cricket" onchange="changeText(this.value);">
+      <option value="0" hidden>1992 Cricket Semi Finale </option>
+      <option value="1">New Zealand</option>
+      <option value="2">Pakistan</option>
+      <option value="3">England</option>
+      <option value="4">south africa</option>
+    </select>
+  </div>
+
+  <div class="help-tip" style="color:black;background-color:#ffd700;   margin: 0px 635px;
+">
+    <p style="color:black;background-color:#ffd700">This is dropdown list.Select the option to see the result of the semi-finale.
+    </p>
+  </div>
+
+  <div id="content" class="content"></div>
+
+  <span> <a href="https://codepen.io/asdfgab/pens/public" target="_blank" class="icon">
+      <i class="fab fa-codepen"></i>Codepen</a>
+  </span>
+
+</body>
+
+</html>
